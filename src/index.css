@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.5;
+  color: #333;
+  font-family: "inter",system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+.heading-primary{
+  color: #FFEF00;
+  font-size: 4.6rem;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  
+
+}
+
+.container{
+  background-color:#FFFBE6;
+  max-width: 98rem;
+  min-height: 100vh;
+  margin: 0 auto;
+  border-bottom: 1rem solid #fcc419;
+}
+
+.our-menu{
+  text-align: center;
+  padding-top: 2.8rem;
+  padding-bottom: 2.4rem;
+  
+}
+
+.our-menu h3{
+  font-size: 2rem;
+  border-top: 2px solid #4c4b45;
+  border-bottom: 2px solid #4c4b45;
+  padding-block: .6rem;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.menu-desc{
+  font-size: 1.8rem;
+  text-align: center;
+  padding-inline: 8.2rem;
+}
+
+.pizza-list{
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  row-gap: 4.4rem;
+  column-gap: 5.2rem;
+  margin-top: 3.8rem;
+  padding-bottom: 9.8rem;
+
+  
+}
+.container-x{
+  max-width: 75rem;
+  margin: 0 auto;
+
+}
+
+.pizza-img{
+  width: 13rem;
+  
+}
+
+.item{
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+  
+
+}
+
+.pizza-text{
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: .4rem;
+}
+
+.pizza-name{
+  font-size: 1.8rem;
+  font-family: 'montserrat'
+  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 600;
+}
+
+.pizza-desc{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: italic;
+  font-size: 1.4rem;
+  text-wrap: wrap;
+  width: 60% ;
+}
+
+.price{
+  font-weight: 600;
+  font-size: 1.4rem;
+  font-family: 'inter';
+}
+
+.order{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.4rem;
+  padding-bottom: 10.6rem;
+}
+
+.order-btn{
+  background-color: #fcc419;
+  border: none;
+  padding: .8rem 2.4rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.order p{
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.gray{
+  filter: grayscale(100%);
+}
